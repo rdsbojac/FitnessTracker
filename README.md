@@ -1,4 +1,4 @@
-FitnessTracker /n
+FitnessTracker
 Este aplicativo foi desenvolvido para facilitar os cálculos e o acompanhamento do Índice de Massa Corporal (IMC) e da Taxa Metabólica Basal (TMB).
 
 Funcionalidades
