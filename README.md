@@ -16,7 +16,6 @@ Este aplicativo foi desenvolvido para facilitar os cálculos e o acompanhamento 
 
 - Kotlin
 - Android Studio
-- [Outras bibliotecas e ferramentas específicas que você usou]
 
 ## Como Instalar e Usar
 
