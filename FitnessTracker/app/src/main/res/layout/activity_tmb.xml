@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main_tmb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/laranjaClaro"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_tmb"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/laranjaClaro"
+            android:layout_marginStart="13dp"
+            app:title="@string/app_name"
+            app:titleTextColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textoPricipal_tmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/texto_boasVindas_tmb"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        
+
+        <EditText
+            android:id="@+id/entrada_peso_tmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:autofillHints=""
+            android:hint="@string/peso_kg"
+            android:inputType="number"
+            android:maxLength="3"
+            android:minHeight="48dp"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/entrada_alt_tmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:autofillHints=""
+            android:hint="@string/altura_cm"
+            android:inputType="number"
+            android:maxLength="3"
+            android:minHeight="48dp"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/entrada_idade_tmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:autofillHints=""
+            android:hint="@string/idade"
+            android:inputType="number"
+            android:maxLength="3"
+            android:minHeight="48dp"
+            android:textColorHint="#000000" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/AutoTextViewForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_lifestyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="33dp"
+                android:inputType="none"
+                android:textColor="@color/white">
+
+            </AutoCompleteTextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/button_calcular_tmb"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/gray"
+            android:text="@string/calcular"
+            android:textSize="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_sair_tmb"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/gray"
+            android:text="SAIR"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
