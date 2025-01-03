@@ -5,6 +5,7 @@ Este aplicativo foi desenvolvido para facilitar os cálculos e o acompanhamento 
 ## Funcionalidades
 
 - **Tela Principal:** Navegação fácil para as telas de cálculo de IMC e TMB.
+  ![Print do App](Screenshot_20250103_114436_FitnessTracker.jpg)
 - **Tela de IMC:**
   - **Calcular IMC:** Insira peso e altura para calcular o IMC.
   - **Resultados Anteriores:** Visualize uma lista dos cálculos de IMC anteriores.
