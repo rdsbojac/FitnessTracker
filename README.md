@@ -9,6 +9,8 @@ Este aplicativo foi desenvolvido para facilitar os cálculos e o acompanhamento 
 - **Tela de IMC:**
   - **Calcular IMC:** Insira peso e altura para calcular o IMC.
   - **Resultados Anteriores:** Visualize uma lista dos cálculos de IMC anteriores.
+    ![Print do App](Screenshot_20250103_114440_FitnessTracker.jpg)
+    ![Print do App](Screenshot_20250103_114445_FitnessTracker.jpg)
 - **Tela de TMB:**
   - **Calcular TMB:** Insira peso, altura, idade e gênero para calcular a TMB.
   - **Resultados Anteriores:** Visualize uma lista dos cálculos de TMB anteriores.
